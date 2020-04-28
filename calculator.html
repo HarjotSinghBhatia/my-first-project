@@ -14,88 +14,64 @@
                 <tr>
                     <th>SEMESTER</th>
                     <th>SGPA</th>
-                    <th>CGPA</th>
-
                 </tr>
                 <tr>
                     <td>1</td>
                     <td>
-                        <input id = "1a" type="number" placeholder="Enter here" value = "" max = "10"  >
-                    </td>
-                    <td>
-                        &nbsp; <output id = "1b" type="number" value=""  >
+                        <input id = "1a" onkeypress="return isNumber(event)" placeholder="for example 9.7">
                     </td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td>
-                        <input id = "2a" type="number" placeholder="Enter here" value = "" >
-                    </td>
-                    <td>
-                        &nbsp; <output id = "2b" type="number"  >
+                        <input id = "2a" onkeypress="return isNumber(event)" placeholder="for example 9.7">
                     </td>
                 </tr>
                 <tr>
                     <td>3</td>
                     <td>
-                        <input id = "3a" type="number" placeholder="Enter here" value = "" >
-                    </td>
-                    <td>
-                        &nbsp; <output id = "3b" type="number"  >
+                        <input id = "3a" onkeypress="return isNumber(event)" placeholder="for example 9.7">
                     </td>
                 </tr>
                 <tr>
                     <td>4</td>
                     <td>
-                        <input id = "4a" type="number" placeholder="Enter here" value = "" >
-                    </td>
-                    <td>
-                        &nbsp; <output id = "4b" type="number"  >
+                        <input id = "4a" onkeypress="return isNumber(event)" placeholder="for example 9.7">
                     </td>
                 </tr>
                 <tr>
                     <td>5</td>
                     <td>
-                        <input id = "5a" type="number" placeholder="Enter here" value = "" >
-                    </td>
-                    <td>
-                        &nbsp; <output id = "5b" type="number"  >
+                        <input id = "5a" onkeypress="return isNumber(event)" placeholder="for example 9.7">
                     </td>
                 </tr>
                 <tr>
                     <td>6</td>
                     <td>
-                        <input id = "6a" type="number" placeholder="Enter here" value = "">
-                    </td>
-                    <td>
-                        &nbsp; <output id = "6b" type="number"  >
+                        <input id = "6a" onkeypress="return isNumber(event)" placeholder="for example 9.7">
                     </td>
                 </tr>
                 <tr>
                     <td>7</td>
                     <td>
-                        <input id = "7a" type="number" placeholder="Enter here" value = "" >
-                    </td>
-                    <td>
-                        &nbsp; <output id = "7b" type="number"  >
+                        <input id = "7a" onkeypress="return isNumber(event)" placeholder="for example 9.7" >
                     </td>
                 </tr>
                 <tr>
                     <td>8</td>
                     <td>
-                        <input id = "8a" type="number" placeholder="Enter here" value = "" >
-                    </td>
-                    <td>
-                        &nbsp; <output id = "8b" type="number"  >
+                        <input id = "8a" onkeypress="return isNumber(event)" placeholder="for example 9.7">
                     </td>
                 </tr>
             </table><br><br>
-            <button id ="x">check</button><br><br>
-            <output id = "9" type="number"  ></output>
+            <button id ="x" onclick="calculateCgp()">check</button><br><br>
+            <div id="ans">
+
+            </div>
          
         </div>
     </center>
 
-    <script src="C:\Users\User\Desktop\calculator\cal.js"></script>
+    <script src="cal.js"></script>
 </body>
 </html>
